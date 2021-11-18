@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211117 21:02:00.148" rpa="false" schemaversion="2">
+<suite id="s1" name="Amazon" source="C:\Users\cdinuwan\Downloads\Ex_Files_Robot_LVL_1_Selenium\Ex_Files_Robot_LVL_1_Selenium\Exercise Files\03_05 Script Files\first script\Tests\amazon.robot">
+<test id="s1-t1" name="User must sign in to check out">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://www.amazon.com</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211117 21:02:00.325" level="INFO">Opening browser 'chrome' to base url 'http://www.amazon.com'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20211117 21:02:00.342" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20211117 21:02:00.342" endtime="20211117 21:02:00.342"/>
+</kw>
+<msg timestamp="20211117 21:02:00.346" level="FAIL">WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home
+</msg>
+<status status="FAIL" starttime="20211117 21:02:00.324" endtime="20211117 21:02:00.347"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20211117 21:02:00.347" endtime="20211117 21:02:00.347"/>
+</kw>
+<doc>This is some basic info about the test</doc>
+<tag>Smoke</tag>
+<status status="FAIL" starttime="20211117 21:02:00.323" endtime="20211117 21:02:00.348">WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home
+</status>
+</test>
+<doc>This is some basic info about the whole suite</doc>
+<status status="FAIL" starttime="20211117 21:02:00.151" endtime="20211117 21:02:00.349"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Amazon">Amazon</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
